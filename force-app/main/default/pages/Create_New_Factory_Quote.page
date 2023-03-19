@@ -1,0 +1,11 @@
+<apex:page standardController="SBQQ__Quote__c" extensions="CreateFactoryQuote" action="{!newQuote}">
+    
+<apex:form >
+    
+    <apex:pageMessages rendered="true"/>
+    
+
+    
+</apex:form>
+    
+</apex:page>

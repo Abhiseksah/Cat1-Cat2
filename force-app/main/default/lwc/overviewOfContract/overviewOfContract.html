@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Product Information And Owner Infomation">
+        <lightning-datatable show-row-number-columnrow-number-offset={} hide-checkbox-column data={subs} columns={productInfo} key-field="Id">
+        </lightning-datatable>
+    </lightning-card>
+    <!--
+    <lightning-card >
+        <lightning-datatable hide-checkbox-column data={subs} columns={ownerInfo} key-field="Id">
+        </lightning-datatable>
+    </lightning-card>-->
+    <lightning-card title="Address">
+        <lightning-datatable hide-checkbox-column data={subs} columns={ownerAddress} key-field="Id">
+        </lightning-datatable>
+    </lightning-card>
+        
+     
+</template>
